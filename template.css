@@ -1,0 +1,154 @@
+body {
+      background-color:  white;
+      width: 100%;
+      margin:auto;
+      font-family: helvetica;
+      font-size: 100%;
+      color: #474747;
+}
+
+.rechthoek {
+  width: 5em;
+  background: #cc999d;
+  height: 70em;
+  margin-top: 0em;
+  position: fixed;
+}
+.logo h2{
+  width: 38%;
+  height: 60%;
+  float: left;
+  text-align: center;
+  font-size: 4em;
+  font-family: ponymaker;
+  color: white;
+  margin-left: -4.4em;
+  margin-top: 0.1em;
+  position: fixed;
+}
+
+.logo2 h2{
+  width: 38%;
+  height: 60%;
+  float: left;
+  text-align: center;
+  font-size: 4em;
+  font-family: ponymaker;
+        color: white;
+  margin-left: -4.4em;
+  margin-top: 4.6em;
+  position: fixed;
+
+}
+
+.logo3 h2{
+  width: 38%;
+  height: 60%;
+  float: left;
+  text-align: center;
+  font-size: 4em;
+  font-family: ponymaker;
+        color: white;
+  margin-left: -4.4em;
+  margin-top: 9.2em;
+  position: fixed;
+}
+
+nav ul{
+  margin-left: 6em;
+  display: flex;
+  justify-content: left;
+  list-style: none;
+}
+
+nav li {
+      padding: 25px;
+}
+
+a {
+      color: #474747;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+nav a {
+          color: white;
+          text-decoration: none;
+          font-weight: bold;
+        }
+
+nav a:hover{
+  text-decoration: underline;
+}
+
+nav{
+      background: #cc999d;
+}
+
+
+main {
+      width: 90%;
+      margin-top: 2em;
+      margin-bottom: auto;
+      margin-right: 3em;
+      margin-left: auto;
+      column-width: 300px;
+      column-gap: 4em;
+      padding-bottom: 20px;
+      border-bottom: 1px solid lightgray;
+      padding-top: 1em;
+}
+
+main a{
+  display: block;
+  padding-bottom: 1em;
+}
+
+h2 {
+      font-weight: 700;
+      font-size: 1.3em;
+      color: #474747;
+}
+
+p {
+      margin-bottom: 1em;
+      margin-top: 1em;
+}
+
+img {
+      max-width: 100%;
+      margin-bottom: 1em;
+}
+
+footer nav ul{
+  display: flex;
+  justify-content: flex-start;
+}
+
+footer ul{
+  margin-left: 5em;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa {
+    padding: 0.5em;
+    font-size: 1em;
+    width: 1em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40%;
+    margin-top: 1em;
+}
